@@ -4,6 +4,7 @@ function iterativeLog(array) {
 
 function logItemsToConsole(item, index) {
   console.log(`${index}: ${item}`);
+<<<<<<< HEAD
 }
 
 function iterate(callback) {
@@ -16,4 +17,6 @@ function iterate(callback) {
 
 function doToArray(array, callback) {
   array.forEach(callback);
+=======
+>>>>>>> bf18e28f9ab159ad9636b68260c089e4a71e73b2
 }
